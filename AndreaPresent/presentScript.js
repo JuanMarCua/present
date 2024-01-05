@@ -3,7 +3,7 @@
 const checkLove = () => {
     const personName = document.getElementById("personName").value.toLowerCase();
     
-    if (personName === "Si") {
+    if (personName === "andrea") {
       document.getElementById("loveQuestion").style.display = "none";
       document.getElementById("ticket").style.display = "block";
     }
