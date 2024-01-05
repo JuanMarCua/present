@@ -1,0 +1,51 @@
+/* Styling for love question section */
+#loveQuestion {
+  margin-top: 20px;
+}
+
+#loveQuestion h2 {
+  font-size: 24px;
+  color: #6e4091;
+  margin-bottom: 15px;
+}
+
+#loveQuestion .inText {
+  width: 80%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #6e4091;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#loveQuestion button {
+  background-color: #6e4091;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+#loveQuestion button:hover {
+  background-color: #8d5eb6;
+}
+
+/* Styling for the ticket section */
+#ticket {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#ticket img {
+  width: 60%; /* Adjust the size as needed */
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+#ticket p {
+  font-size: 16px;
+  color: #6e4091;
+}
